@@ -12,6 +12,7 @@ __pycache__/
 # Virtualenv / uv
 .venv/
 uv.lock
+.python-version
 
 # Pytest / coverage
 .pytest_cache/
@@ -31,9 +32,17 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
 # Next.js build output
 .next/
 out/
+
+# Next/TypeScript generated files
+next-env.d.ts
 
 # Vite build output (if used)
 dist/
